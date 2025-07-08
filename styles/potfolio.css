@@ -138,3 +138,43 @@ main{
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
 }
+
+  /* what i do */
+
+  .what-i-do{
+    max-width:fit-content;
+    margin-top: 130px;
+  }
+
+.main-tytle{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.main-description{
+    font-size: 18px;
+    color:#757575;
+    text-align: center;
+}
+
+/* actual skill */
+
+.skill-container{
+    display: flex;
+    margin-top: 130px;
+    gap: 24px;
+}
+.skill-tytle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill-para{
+    font-size: 16px;
+    color: #757575;
+    text-align: start;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}

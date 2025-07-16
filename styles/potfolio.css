@@ -327,3 +327,18 @@ outline-style: none;
 
     }
 }
+/* medium-device-responsive */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .banner{
+        flex-direction: column;
+    }
+    .banner-picture{
+        margin-top: 20px;
+    }
+    .skill-container{
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
